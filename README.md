@@ -1,5 +1,7 @@
 # 50-day-coding-challenge
 
+Start Date: 12MAR2024
+
 ## Day 1: HTML Basics
 Create a simple webpage with HTML that displays your name and a short bio.
 ## Day 2: CSS Styling
