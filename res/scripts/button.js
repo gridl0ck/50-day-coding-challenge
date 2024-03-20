@@ -8,7 +8,7 @@ function getMessage() {
     const now = new Date();
     const hours = now.getHours();
     const minutes = now.getMinutes();
-    let rand = Math.round(Math.random() * 40);
+
     if(hours < 12){
         msg = `Good Morning! The current time is ${hours}:${minutes}\n`;
     }
@@ -20,10 +20,6 @@ function getMessage() {
         msg = `Good Evening! The current time is ${hours}:${minutes}\n`;
     }
 
-    if(rand % 4 == 0) {
-        msg = msg + "Enjoy your trip!";
-    }
-    console.log(rand)
     return msg;
 }
 
@@ -37,13 +33,5 @@ greeting_button.addEventListener('click', () => {
     }
 
     window.alert(msg);
-
-    if(redir){
-
-        setTimeout(() => { window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank"); }, 500);
-
-    }
-    
-
 
 });
