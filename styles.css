@@ -3,6 +3,8 @@ body, html {
     font-size: large;
     background-color:gray;
     max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -41,7 +43,25 @@ footer {
     background-color: black;
 }
 
+.favorite-item-header {
+    font-size: 17px;
+    font-weight: bold;
+}
+
 footer div {
     color: white;
     text-align: center;
+}
+
+.greeting-button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    box-shadow: 1px 1px ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
