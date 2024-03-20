@@ -14,6 +14,15 @@ header {
     max-height: auto;
 }
 
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    padding-bottom: 1.2rem;
+}
+
 header h1 {
     color: white;
     margin: auto;
@@ -37,7 +46,10 @@ h2 {
 }
 
 footer {
-    position: fixed;
+    color: white;
+    text-align: center;
+    position: absolute;
+    height: 1.2rem;
     bottom: 0;
     width: 100%;
     background-color: black;
@@ -48,15 +60,13 @@ footer {
     font-weight: bold;
 }
 
-footer div {
-    color: white;
-    text-align: center;
-}
 
 .greeting-button {
     position: relative;
     border: none;
     padding: 10px 10px;
+    width: auto;
+    height: auto;
     top: 50%;
     left: 50%;
     background-color: white;

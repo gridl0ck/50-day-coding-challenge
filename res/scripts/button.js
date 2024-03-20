@@ -15,7 +15,6 @@ function getMessage() {
     else if(hours > 12 && hours < 18){
         msg = `Good Afternoon! The current time is ${hours}:${minutes}\n`;
     }
-
     else {
         msg = `Good Evening! The current time is ${hours}:${minutes}\n`;
     }
