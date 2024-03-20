@@ -5,23 +5,33 @@ body, html {
     max-width: 100%;
 }
 
+
 header {
     background-color: black;
     max-width: 100%;
     max-height: auto;
 }
 
-header h1, h2 {
+header h1 {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
     color: white;
     margin: auto;
     text-align: center;
 }
 
-.things-list {
-    justify-content: center;
-}
-.things-list ul {
-    
+.intro {
+    max-width: 70%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
 }
 
 footer {
