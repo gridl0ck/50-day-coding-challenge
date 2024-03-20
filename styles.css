@@ -1,0 +1,37 @@
+body, html {
+    font-family: monospace;
+    font-size: large;
+    background-color:gray;
+    max-width: 100%;
+}
+
+header {
+    background-color: black;
+    max-width: 100%;
+    max-height: auto;
+}
+
+header h1, h2 {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.things-list {
+    justify-content: center;
+}
+.things-list ul {
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer div {
+    color: white;
+    text-align: center;
+}
