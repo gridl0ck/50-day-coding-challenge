@@ -40,9 +40,13 @@ else if(page.includes("Calc")) {
 
     const rand = Math.round(Math.random() * 3)
 
+    //TODO randomly assign a modifier to the food when added to the screen!
     const food_modifiers = [
-        "Sometimes, I enjoy "
+        ["Sometimes, I enjoy "],
+        ["A heaping helping of ", "is always nice"]
+        ["Eating ", " "]
     ]
+
     // Sort Alphabetically
     if(rand === 1){
         foods = foods.sort()
@@ -61,7 +65,7 @@ else if(page.includes("Calc")) {
     }
 
     for(let i = 0; i < foods.length; i++) {
-        containers[i].innerHTML = `I enjoy eating ${foods[i]}!`;
+        containers[i].innerHTML = `${foods[i]}`;
     }
 
 }
