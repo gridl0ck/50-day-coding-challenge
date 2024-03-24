@@ -1,13 +1,12 @@
-function onButtonClick() {
-
-  }
-
-
 function getMessage() {
     let msg;
     const now = new Date();
     const hours = now.getHours();
-    const minutes = now.getMinutes();
+    let minutes = now.getMinutes();
+
+    if(minutes < 10){
+        minutes = "0" + minutes.toString();
+    }
 
     if(hours < 12){
         msg = `Good Morning! The current time is ${hours}:${minutes}\n`;
@@ -22,15 +21,9 @@ function getMessage() {
     return msg;
 }
 
-
 const greeting_button = document.getElementById('greeting');
 greeting_button.addEventListener('click', () => {
     const msg = getMessage();
-    let redir = false;
-    if(msg.includes("trip")){
-        redir = true;
-    }
-
     window.alert(msg);
 
 });

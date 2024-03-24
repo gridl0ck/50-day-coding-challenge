@@ -8,7 +8,6 @@ function calcExp(base, exp){
     }
 }
 
-
 document.getElementById("calc-submit").addEventListener("click", () => {
     const base = parseInt(document.getElementById("base").value);
     const exp = parseInt(document.getElementById("exponent").value);

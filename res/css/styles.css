@@ -142,7 +142,6 @@ footer {
     font-weight: bold;
 }
 
-
 .greeting-button {
     position: relative;
     border: none;
@@ -160,13 +159,6 @@ footer {
     -o-border-radius: 5px;
     cursor: pointer;
 }
-
-
-/* CALCULATOR FORM  */
-
-
-
-
 
 @keyframes news-animation {
     from {

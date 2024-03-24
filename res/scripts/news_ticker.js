@@ -8,14 +8,38 @@ function getAge() {
     return age;
 }
 
-let news_name = document.getElementById("news-name");
-let news_age = document.getElementById("news-age");
-let news_hobby = document.getElementById("news-hobby");
+const page = document.getElementById("page-title").innerHTML;
+console.log(page)
+if(page === "Home"){
+    let news_name = document.getElementById("news-name");
+    let news_age = document.getElementById("news-age");
+    let news_hobby = document.getElementById("news-hobby");
 
-const my_name = "Jalen Morgan";
-const age = getAge();
-const my_hobby = "I enjoy playing music on my trumpet!"
+    const my_name = "Jalen Morgan";
+    const age = getAge();
+    const my_hobby = "I enjoy playing music on my trumpet!"
 
-news_name.innerHTML = "My name is " + my_name + "!";
-news_age.innerHTML = "I am currently " + age + " years old!";
-news_hobby.innerHTML = my_hobby;
+    news_name.innerHTML = "My name is " + my_name + "!";
+    news_age.innerHTML = "I am currently " + age + " years old!";
+    news_hobby.innerHTML = my_hobby;
+}
+
+else if(page.includes("Calc")) {
+    let food1;
+    let food2;
+    let food3;
+    const containers = [
+        food1 = document.getElementById("food1"),
+        food2 = document.getElementById("food2"),
+        food3 = document.getElementById("food3"),
+    ]
+
+    const foods = ["Potatoes", "Steak", "Broccoli"]
+    for(let i = 0; i < foods.length; i++) {
+        containers[i].innerHTML = `I enjoy eating ${foods[i]}!`;
+    }
+
+}
+
+
+
