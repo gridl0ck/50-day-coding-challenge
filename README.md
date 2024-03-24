@@ -4,37 +4,37 @@ Here are 50 coding challenges progressively increasing in difficulty, utilizing 
 
 Start Date: 18MAR2024
 
-## Day 1: HTML Basics
+## Day 1: HTML Basics 18MAR2024
 Create a simple webpage with HTML that displays your name and a short bio.
 
 **Stretch Goal:** Add additional HTML elements such as headings, paragraphs, and lists to structure your webpage further.
 
-## Day 2: CSS Styling
+## Day 2: CSS Styling 19MAR2024
 Style your webpage from Day 1 using CSS to change the font, color, and layout.
 
 **Stretch Goal:** Experiment with CSS selectors to target specific elements on your webpage and apply different styles.
 
-## Day 3: JavaScript Basics
+## Day 3: JavaScript Basics 20MAR2024
 Add a button to your webpage that displays an alert with a greeting when clicked, using JavaScript.
 
 **Stretch Goal:** Modify the JavaScript code to change the greeting based on the time of day (e.g., Good morning, Good afternoon, Good evening).
 
-## Day 4: JavaScript Variables and Data Types
+## Day 4: JavaScript Variables and Data Types 21MAR2024
 Create variables to store your name, age, and favorite hobby. Display these variables on your webpage.
 
 **Stretch Goal:** Convert the age variable to a different data type (e.g., string, boolean) and observe how it affects your program.
 
-## Day 5: JavaScript Functions
+## Day 5: JavaScript Functions 22MAR2024
 Write a function that takes two parameters (a base and an exponent) and calculates the result of raising the base to the exponent. Display the result on your webpage.
 
 **Stretch Goal:** Extend the function to handle negative exponents or fractional exponents.
 
-## Day 6: JavaScript Arrays
+## Day 6: JavaScript Arrays 23MAR2024
 Create an array of your favorite foods. Use JavaScript to display each food item in a list on your webpage.
 
 **Stretch Goal:** Use array methods like map, filter, or reduce to manipulate the array of foods in different ways (e.g., sorting alphabetically, filtering by length).
 
-## Day 7: JavaScript Conditionals
+## Day 7: JavaScript Conditionals 24MAR2024
 Write a program that asks the user for their age and displays a different message based on whether they are under 18, between 18 and 65, or over 65.
 
 **Stretch Goal:** Implement additional conditions to customize the messages further (e.g., if the user's age is a prime number).
