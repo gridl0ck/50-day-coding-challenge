@@ -32,9 +32,34 @@ else if(page.includes("Calc")) {
         food1 = document.getElementById("food1"),
         food2 = document.getElementById("food2"),
         food3 = document.getElementById("food3"),
+        food4 = document.getElementById("food4"),
+        food5 = document.getElementById("food5"),
     ]
 
-    const foods = ["Potatoes", "Steak", "Broccoli"]
+    let foods = ["Potatoes", "Steak", "Broccoli", "Burritos", "Chipotle"]
+
+    const rand = Math.round(Math.random() * 3)
+
+    const food_modifiers = [
+        "Sometimes, I enjoy "
+    ]
+    // Sort Alphabetically
+    if(rand === 1){
+        foods = foods.sort()
+    }
+    // Sort Descending
+    else if(rand === 2){
+        foods = foods.sort(function (a,b) {
+            if(a > b){
+                return -1;
+            }
+            if(b > a){
+                return 1;
+            }
+            return 0;
+        });
+    }
+
     for(let i = 0; i < foods.length; i++) {
         containers[i].innerHTML = `I enjoy eating ${foods[i]}!`;
     }
